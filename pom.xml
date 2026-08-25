@@ -29,12 +29,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
-		<!-- Spring AI: Vertex AI Gemini Starter (Versão declarada para garantir resolução) -->
+		
 		<dependency>
-			<groupId>org.springframework.ai</groupId>
-			<artifactId>spring-ai-vertex-ai-gemini-spring-boot-starter</artifactId>
-			<version>${spring-ai.version}</version>
+		    <groupId>com.google.genai</groupId>
+		    <artifactId>google-genai</artifactId>
+		    <version>0.1.1</version> <!-- Garanta que está na versão mais recente -->
 		</dependency>
 
 		<!-- Documentação OpenAPI 3 / Swagger UI -->
